@@ -16,7 +16,7 @@ public class loginInformation {
     LoginInfo c = new LoginInfo();
 
 
-    @BeforeSuite //Test metodlarından önce çalıştırması gerek.
+    @BeforeSuite 
     public void JsonParser () {
         JSONParser parser = new JSONParser();
 
